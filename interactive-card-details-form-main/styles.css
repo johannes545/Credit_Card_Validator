@@ -200,3 +200,49 @@
     top: 24%;
     left: 22.5%;
 }
+
+.complete-logo {
+    width: 7.5%;
+    height: 15%;
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    visibility: hidden;
+}
+
+.complete-h1 {
+    position: absolute;
+    top: 42%;
+    right: 24%;
+    visibility: hidden;
+}
+
+.complete-paragraph {
+    position: absolute;
+    top: 49%;
+    right: 24%;
+    color: grey;
+    font-size: 22px;
+    visibility: hidden;
+}
+
+.complete-confirm {
+    width: 25%;
+    height: 7%;
+    background-color: black;
+    border-radius: 18px;
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+    color: white;
+    visibility: hidden;
+}
+
+a {
+    color: white;
+}
+
+input:focus {
+    color: white;
+}
