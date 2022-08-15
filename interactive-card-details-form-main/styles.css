@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    width: auto;
+    height: 750px;
+    position: relative;
+}
+
+.background-image {
+    width: 33%;
+    height: 750px;
+}
+
+.background-card-front {
+    position: absolute;
+    width: 25%;
+    height: 28%;
+    left: 17%;
+    top: 20%;
+}
+
+
+.card-number {
+    position: absolute;
+    top: 35%;
+    left: 19%;
+    color: white;
+}
+
+.card-name {
+    position: absolute;
+    top: 43%;
+    left: 19%;
+    color: white;
+}
+
+.card-expiration {
+    position: absolute;
+    top: 43%;
+    left: 38%;
+    color: white;
+}
+
+.card-logo {
+    width: 3.5%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 22%;
+    left: 18%;
+}
+
+.background-card-back {
+    position: absolute;
+    width: 25%;
+    height: 28%;
+    bottom: 15%;
+    left: 22%;
+}
+
+.card-back-flair1 {
+    width: 0.7%;
+    height: 2%;
+    border-radius: 50%;
+    background-color: #ADB5BF;
+    border: 3px solid white;
+    position: absolute;
+    left: 40%;
+    bottom: 28%;
+}
+
+.card-back-flair2 {
+    width: 0.7%;
+    height: 2%;
+    border-radius: 50%;
+    background-color: #ADB5BF;
+    border: 3px solid white;
+    position: absolute;
+    left: 41%;
+    bottom: 28%;
+}
+
+.card-back-flair3 {
+    width: 0.7%;
+    height: 2%;
+    border-radius: 50%;
+    background-color: #ADB5BF;
+    border: 3px solid white;
+    position: absolute;
+    left: 42%;
+    bottom: 28%;
+}
+
+.card-holder-name {
+    position: absolute;
+    right: 30%;
+    top: 25%;
+}
+
+.card-holder-name-input {
+    position: absolute;
+    right: 16%;
+    top: 30%;
+    width: 25%;
+    height: 6%;
+    border-radius: 18px;
+    border: 1px solid blue; 
+}
+
+.card-holder-number {
+    position: absolute;
+    right: 33%;
+    top: 40%;
+}
+
+.card-holder-number-input {
+    position: absolute;
+    right: 16%;
+    top: 45%;
+    width: 25%;
+    height: 6%;
+    border-radius: 18px;
+    border: 1px solid red; 
+}
+
+.exp-date {
+    position: absolute;
+    right: 31%;
+    top: 55%;
+}
+
+.exp-month {
+    position: absolute;
+    right: 36%;
+    top: 60%;
+    width: 5%;
+    height: 6%;
+    border-radius: 18px;
+    border: 1px solid green;
+    text-align: center;
+    color: grey;
+    font-size: 1.3em;
+}
+
+.exp-year {
+    position: absolute;
+    right: 30.5%;
+    top: 60%;
+    width: 5%;
+    height: 6%;
+    border-radius: 18px;
+    border: 1px solid green;
+    text-align: center;
+    color: grey;
+    font-size: 1.3em;
+}
+
+.card-holder-cvg {
+    position: absolute;
+    right: 23%;
+    top: 55%;
+}
+
+.card-holder-cvg-input {
+    position: absolute;
+    right: 10.5%;
+    top: 60%;
+    width: 15%;
+    height: 6%;
+    border-radius: 18px;
+    border: 1px solid green;
+    text-align: center;
+    color: grey;
+    font-size: 1.3em;
+}
+
+.submit {
+    width: 25%;
+    height: 7%;
+    background-color: black;
+    border-radius: 18px;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+}
+
+.guld-logo {
+    width: 1.50%;
+    height: 3%;
+    border-radius: 50%;
+    background-color: #633AEA;
+    position: absolute;
+    border: 1px solid gold;
+    top: 24%;
+    left: 22.5%;
+}
